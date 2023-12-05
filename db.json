@@ -1,0 +1,122 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Currey Leaburn",
+      "isEnrolled": true,
+      "isEmployee": true,
+      "dependents": [
+        {
+          "name": "Vince Leaburn",
+          "isEmployee": false,
+          "discount": false,
+          "id": 1
+        }
+      ],
+      "discount": false,
+      "cost": 1000
+    },
+    {
+      "id": 2,
+      "name": "Tyler Baldwin",
+      "isEnrolled": true,
+      "isEmployee": true,
+      "dependents": [
+        {
+          "id": 1,
+          "name": "Iris Dunlop",
+          "isEmployee": false,
+          "discount": false
+        },
+        {
+          "id": 2,
+          "name": "Lily Tucker",
+          "isEmployee": false,
+          "discount": false
+        }
+      ],
+      "discount": false
+    },
+    {
+      "id": 3,
+      "name": "Emmett Caldwell",
+      "isEnrolled": true,
+      "isEmployee": true,
+      "dependents": [
+        {
+          "id": 3,
+          "name": "Stella Riley",
+          "isEmployee": false,
+          "discount": false
+        }
+      ],
+      "discount": false
+    },
+    {
+      "id": 4,
+      "name": "Fletcher Davidson",
+      "isEnrolled": true,
+      "isEmployee": true,
+      "dependents": [
+        {
+          "id": 4,
+          "name": "Ava Reid",
+          "isEmployee": false,
+          "discount": false
+        }
+      ],
+      "discount": false
+    },
+    {
+      "id": 5,
+      "name": "Allison Elliott",
+      "isEnrolled": true,
+      "isEmployee": true,
+      "dependents": [],
+      "discount": false
+    },
+    {
+      "id": 6,
+      "name": "Ken Pletts",
+      "isEnrolled": true,
+      "isEmployee": true,
+      "dependents": [],
+      "discount": false,
+      "cost": 0
+    },
+    {
+      "id": 7,
+      "name": "Harlan Fletcher",
+      "isEnrolled": true,
+      "isEmployee": true,
+      "dependents": [
+        {
+          "id": 6,
+          "name": "Lucy Warren",
+          "isEmployee": false,
+          "discount": false
+        },
+        {
+          "id": 7,
+          "name": "Nora Gallagher",
+          "isEmployee": false,
+          "discount": false
+        },
+        {
+          "id": 8,
+          "name": "Ruby Hawkins",
+          "isEmployee": false,
+          "discount": false
+        },
+        {
+          "id": 9,
+          "name": "Hazel Pearson",
+          "isEmployee": false,
+          "discount": false
+        }
+      ],
+      "discount": false,
+      "cost": 2000
+    }
+  ]
+}
